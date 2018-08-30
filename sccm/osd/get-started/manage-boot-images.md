@@ -45,7 +45,7 @@ Beginning in Configuration Manager version 1706, reload the boot image with late
  - The Windows ADK version installed on the site server
  - The Windows ADK version of WinPE in the boot image
  - The version of the Configuration Manager client
-Use this information to help decide whether to reload the boot image. The **Boot Images** node also includes a new column for (**Client Version**). Use this column to quickly view the Configuration Manager client version in each boot image.    
+Use this information to help decide whether to reload the boot image. The **Boot Images** node also includes a new column for (**Client Version**). Use this column to quickly view the version of Configuration Manager client components (not the full client) in each boot image.    
 
 
 ##  <a name="BKMK_BootImageCustom"></a> Customize a boot image  

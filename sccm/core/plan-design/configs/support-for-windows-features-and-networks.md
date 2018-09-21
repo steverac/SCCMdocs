@@ -42,7 +42,7 @@ Add the **Windows BranchCache** feature to the site system server that's configu
 
 #### Configure clients    
 - The clients that can support BranchCache must be configured for BranchCache distributed cache mode.  
-- The OS setting for BITS client settings must be enabled to support BranchCache.  
+- The OS setting for BITS client settings must be enabled to support BranchCache. This implies that it is required to manually configure clients to support BranchCache - typically done through GPO.  I don't believe that is correct any longer.  We now have client settings to enable BranchCache.  Our client settings doc says it correctly - https://docs.microsoft.com/en-us/sccm/core/clients/deploy/about-client-settings
 
 For information, see [configure clients for BranchCache](https://docs.microsoft.com/windows/deployment/update/waas-branchcache#configure-clients-for-branchcache) in the Windows documentation.
 
